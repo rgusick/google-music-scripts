@@ -6,3 +6,5 @@ ARG     DEBIAN_FRONTEND=noninteractive
 
 RUN     pip install \
                 google-music-scripts
+
+ENTRYPOINT [ "/usr/local/bin/gms" ]
